@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="img/share">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link rel="icon" href="img/icon1.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="stylesheet" href="css/tasks.css">
+    <link rel="stylesheet" href="css/tasks.css">
+    <link rel="stylesheet" href="css/task.css">
+    <script defer src="./js/script.js"></script>
+    <title>Tasks List</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header">
+            <h1 class="header__main">Lista zadań</h1>
+        </header>
+        <section class="tasks">
+            <h2 class="tasks__header">Dodaj nowe zadanie</h2>
+            <form class="tasks__form js-form">
+                <input autofocus class="tasks__input js-newTask" placeholder="Co jest do zrobienia?" type="text">
+                <button class="tasks__button">Dodaj Zadanie</button>
+            </form>
+
+        </section>
+        <section class="task">
+            <h2 class="task__header">Lista zadań</h2>
+            <ul class="task__list js-tasks">
+
+            </ul>
+        </section>
+
+    </div>
+
+</body>
+
+</html>

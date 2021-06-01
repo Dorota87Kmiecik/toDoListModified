@@ -1,0 +1,64 @@
+.tasks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.tasks__header {
+    flex-basis: 100%;
+    border: solid hsl(0, 0%, 70%) 1px;
+    border-bottom: none;
+    margin: 0;
+    padding: 10px 20px;
+    background: white;
+
+}
+
+.tasks__form {
+    display: flex;
+    border: solid hsl(0, 0%, 70%) 1px;
+    padding: 20px 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: white;
+    margin-bottom: 5px;
+
+}
+
+.tasks__input {
+    flex-basis: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    border: solid hsl(0, 0%, 70%) 1px;
+}
+
+@media(max-width: 767px) {
+    .tasks__input {
+        flex-basis: 100%;
+    }
+}
+
+.tasks__button {
+
+    border: solid hsl(0, 0%, 70%) 1px;
+    margin: 10px 0;
+    padding: 10px;
+    background: teal;
+    color: white;
+
+}
+
+.tasks__button:hover {
+    background: hsl(180, 100%, 15%);
+}
+
+.tasks__button:active {
+    background: hsl(180, 100%, 35%);
+}
+
+@media(max-width: 767px) {
+    .tasks__button {
+        flex-basis: 100%;
+    }
+}
